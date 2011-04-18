@@ -1,0 +1,8 @@
+job_show:
+    pattern: /job/{company}/{location}/{id}/{position}.{_format}
+    defaults: { _controller: ApplicationJobeetBundle:Job:show, _format: html }
+    requirements: { id: \d+ }
+
+homepage:
+    pattern:  /
+    defaults: { _controller: ApplicationJobeetBundle:Job:index }

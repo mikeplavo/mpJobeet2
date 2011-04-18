@@ -1,0 +1,3 @@
+[submodule "src/JMS/SecurityBundle"]
+	path = src/JMS/SecurityBundle
+	url = https://github.com/schmittjoh/SecurityExtraBundle.git
